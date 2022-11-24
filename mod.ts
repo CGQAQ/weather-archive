@@ -2,8 +2,8 @@ import {
   getRealtimeData,
   getWeatherData,
   RealtimeData,
-  WeatherData,
   utf8TextDecoder,
+  WeatherData,
 } from "./api.ts";
 
 import { format } from "https://deno.land/std@0.165.0/datetime/mod.ts";
