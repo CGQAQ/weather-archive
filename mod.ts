@@ -48,16 +48,20 @@ try {
   // ignore
 }
 
+const content = JSON.stringify(
+  {
+    timestamp: today.getTime(),
+    lastUpdate: datetime,
+    data: cities,
+  },
+  null,
+  2
+);
+
 // normalize filename
 await Deno.writeTextFile(
   `weathers/${date}/${datetime.replace(/ /g, "_").replace(/:/g, "_")}.json`,
-  JSON.stringify(
-    {
-      timestamp: today.getTime(),
-      lastUpdate: datetime,
-      data: cities,
-    },
-    null,
-    2
-  )
+  content
 );
+
+await Deno.writeTextFile(`weathers/${date}/latest.json`, content);
