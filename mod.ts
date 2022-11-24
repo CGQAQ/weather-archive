@@ -9,7 +9,7 @@ import {
 import { format } from "https://deno.land/std@0.165.0/datetime/mod.ts";
 
 const cityDataResp = await fetch(
-  "https://j.i8tq.com/weather2020/search/city.js"
+  "https://j.i8tq.com/weather2020/search/city.js",
 );
 
 let cityData = utf8TextDecoder.decode(await cityDataResp.arrayBuffer());
@@ -55,13 +55,13 @@ const content = JSON.stringify(
     data: cities,
   },
   null,
-  2
+  2,
 );
 
 // normalize filename
 await Deno.writeTextFile(
   `weathers/${date}/${datetime.replace(/ /g, "_").replace(/:/g, "_")}.json`,
-  content
+  content,
 );
 
 await Deno.writeTextFile(`weathers/${date}/latest.json`, content);
