@@ -2,14 +2,14 @@ import {
   getRealtimeData,
   getWeatherData,
   RealtimeData,
-  WeatherData,
   utf8TextDecoder,
+  WeatherData,
 } from "./api.ts";
 
 import { format } from "https://deno.land/std@0.165.0/datetime/mod.ts";
 
 const cityDataResp = await fetch(
-  "https://j.i8tq.com/weather2020/search/city.js"
+  "https://j.i8tq.com/weather2020/search/city.js",
 );
 
 let cityData = utf8TextDecoder.decode(await cityDataResp.arrayBuffer());
@@ -58,6 +58,6 @@ await Deno.writeTextFile(
       data: cities,
     },
     null,
-    2
-  )
+    2,
+  ),
 );

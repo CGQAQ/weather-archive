@@ -130,7 +130,7 @@ export async function getRealtimeData(id: string): Promise<RealtimeData> {
           },
         })
       ).text()
-    ).replace("var dataSK=", "")
+    ).replace("var dataSK=", ""),
   );
 
   return result;
