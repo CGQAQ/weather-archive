@@ -1,0 +1,35 @@
+# jjc, yyds
+name: schedule
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: Asia/Shanghai
+      EMAIL: ${{ secrets.CGQAQ_EMAIL }}
+      NAME: ${{ secrets.CGQAQ_NAME }}
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+
+      - name: Install deno
+        uses: denoland/setup-deno@v1
+
+      - name: Run deno
+        run: |
+          git config --local user.email $EMAIL
+          git config --local user.name $NAME
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull --rebase
+          deno task start
+          deno fmt
+          git add .
+          git commit -m "update by github action"
+          git push
