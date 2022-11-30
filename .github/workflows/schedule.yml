@@ -24,8 +24,8 @@ jobs:
 
       - name: Run deno
         run: |
-          git config --local user.email $EMAIL
-          git config --local user.name $NAME
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "BOT"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
           deno task start
