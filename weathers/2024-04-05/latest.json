@@ -1,6 +1,6 @@
 {
-  "timestamp": 1712268187507,
-  "lastUpdate": "2024-04-05 06:03:07",
+  "timestamp": 1712271795868,
+  "lastUpdate": "2024-04-05 07:03:15",
   "data": [
     {
       "id": "101010100",
@@ -10,17 +10,17 @@
         "nameen": "beijing",
         "cityname": "北京",
         "city": "101010100",
-        "temp": "5.1",
-        "tempf": "41.2",
-        "WD": "北风",
-        "wde": "N",
+        "temp": "5.7",
+        "tempf": "42.3",
+        "WD": "东北风",
+        "wde": "NE",
         "WS": "1级",
-        "wse": "2km/h",
+        "wse": "3km/h",
         "SD": "52%",
         "sd": "52%",
         "qy": "1015",
-        "njd": "22km",
-        "time": "05:45",
+        "njd": "18km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "52",
@@ -33,18 +33,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "5",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东南风",
-            "directionCode": "SE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:41"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "晴",
           "temp": "21",
@@ -54,7 +42,19 @@
             "directionCode": "SW",
             "level": "<3级"
           },
-          "sunset": "日出 05:53"
+          "sunrise": "日出 05:53"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "多云",
+          "temp": "8",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西风",
+            "directionCode": "W",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:41"
         }
       }
     },
@@ -66,353 +66,17 @@
         "nameen": "shanghai",
         "cityname": "上海",
         "city": "101020100",
-        "temp": "11.3",
-        "tempf": "52.3",
-        "WD": "东南风",
-        "wde": "SE",
+        "temp": "11.4",
+        "tempf": "52.5",
+        "WD": "东北风",
+        "wde": "NE",
         "WS": "1级",
         "wse": "2km/h",
-        "SD": "62%",
-        "sd": "62%",
+        "SD": "63%",
+        "sd": "63%",
         "qy": "1019",
-        "njd": "17km",
-        "time": "05:45",
-        "rain": "0",
-        "rain24h": "0",
-        "aqi": "53",
-        "aqi_pm25": "53",
-        "weather": "多云",
-        "weathere": "Cloudy",
-        "weathercode": "d01",
-        "limitnumber": "",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "12",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:15"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "晴",
-          "temp": "18",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunset": "日出 05:38"
-        }
-      }
-    },
-    {
-      "id": "101030100",
-      "province": "天津",
-      "city": "天津",
-      "realtime": {
-        "nameen": "tianjin",
-        "cityname": "天津",
-        "city": "101030100",
-        "temp": "7.3",
-        "tempf": "45.1",
-        "WD": "东风",
-        "wde": "E",
-        "WS": "1级",
-        "wse": "2km/h",
-        "SD": "67%",
-        "sd": "67%",
-        "qy": "1019",
-        "njd": "17km",
-        "time": "05:45",
-        "rain": "0",
-        "rain24h": "0",
-        "aqi": "60",
-        "aqi_pm25": "60",
-        "weather": "晴",
-        "weathere": "Sunny",
-        "weathercode": "d00",
-        "limitnumber": "不限行",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "7",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东南风",
-            "directionCode": "SE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:37"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "多云",
-          "temp": "21",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "<3级"
-          },
-          "sunset": "日出 05:50"
-        }
-      }
-    },
-    {
-      "id": "101040100",
-      "province": "重庆",
-      "city": "重庆",
-      "realtime": {
-        "nameen": "chongqing",
-        "cityname": "重庆",
-        "city": "101040100",
-        "temp": "16.5",
-        "tempf": "61.7",
-        "WD": "西北风",
-        "wde": "NW",
-        "WS": "1级",
-        "wse": "1km/h",
-        "SD": "95%",
-        "sd": "95%",
-        "qy": "981",
-        "njd": "4km",
-        "time": "05:45",
-        "rain": "0.3",
-        "rain24h": "0.3",
-        "aqi": "22",
-        "aqi_pm25": "22",
-        "weather": "雨",
-        "weathere": null,
-        "weathercode": "d301",
-        "limitnumber": "不限行",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "17",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东南风",
-            "directionCode": "SE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:14"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "阴",
-          "temp": "23",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "<3级"
-          },
-          "sunset": "日出 06:39"
-        }
-      }
-    },
-    {
-      "id": "101050101",
-      "province": "黑龙江",
-      "city": "哈尔滨",
-      "realtime": {
-        "nameen": "haerbin",
-        "cityname": "哈尔滨",
-        "city": "101050101",
-        "temp": "4.4",
-        "tempf": "39.9",
-        "WD": "西南风",
-        "wde": "SW",
-        "WS": "3级",
-        "wse": "14km/h",
-        "SD": "41%",
-        "sd": "41%",
-        "qy": "1001",
-        "njd": "30km",
-        "time": "05:45",
-        "rain": "0",
-        "rain24h": "0",
-        "aqi": "50",
-        "aqi_pm25": "50",
-        "weather": "晴",
-        "weathere": "Sunny",
-        "weathercode": "d00",
-        "limitnumber": "",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "晴",
-          "temp": "0",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西风",
-            "directionCode": "W",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:05"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "晴",
-          "temp": "14",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "3-4级"
-          },
-          "sunset": "日出 05:07"
-        }
-      }
-    },
-    {
-      "id": "101060101",
-      "province": "吉林",
-      "city": "长春",
-      "realtime": {
-        "nameen": "changchun",
-        "cityname": "长春",
-        "city": "101060101",
-        "temp": "1.3",
-        "tempf": "34.3",
-        "WD": "南风",
-        "wde": "S",
-        "WS": "1级",
-        "wse": "5km/h",
-        "SD": "45%",
-        "sd": "45%",
-        "qy": "989",
-        "njd": "6km",
-        "time": "05:45",
-        "rain": "0",
-        "rain24h": "0",
-        "aqi": "200",
-        "aqi_pm25": "200",
-        "weather": "霾",
-        "weathere": "haze",
-        "weathercode": "d53",
-        "limitnumber": "",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "晴",
-          "temp": "-1",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:09"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "晴",
-          "temp": "14",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "<3级"
-          },
-          "sunset": "日出 05:14"
-        }
-      }
-    },
-    {
-      "id": "101070101",
-      "province": "辽宁",
-      "city": "沈阳",
-      "realtime": {
-        "nameen": "shenyang",
-        "cityname": "沈阳",
-        "city": "101070101",
-        "temp": "-2.8",
-        "tempf": "27",
-        "WD": "东风",
-        "wde": "E",
-        "WS": "1级",
-        "wse": "2km/h",
-        "SD": "78%",
-        "sd": "78%",
-        "qy": "1013",
-        "njd": "12km",
-        "time": "05:45",
-        "rain": "0",
-        "rain24h": "0",
-        "aqi": "162",
-        "aqi_pm25": "162",
-        "weather": "多云",
-        "weathere": "Cloudy",
-        "weathercode": "d01",
-        "limitnumber": "",
-        "date": "04月05日(星期五)"
-      },
-      "weather": {
-        "day": {
-          "date": "4日夜间",
-          "weather": "晴",
-          "temp": "0",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "南风",
-            "directionCode": "S",
-            "level": "3-4级"
-          },
-          "sunrise": "日落 18:14"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "多云",
-          "temp": "16",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "4-5级"
-          },
-          "sunset": "日出 05:23"
-        }
-      }
-    },
-    {
-      "id": "101080101",
-      "province": "内蒙古",
-      "city": "呼和浩特",
-      "realtime": {
-        "nameen": "huhehaote",
-        "cityname": "呼和浩特",
-        "city": "101080101",
-        "temp": "4.4",
-        "tempf": "39.9",
-        "WD": "西北风",
-        "wde": "NW",
-        "WS": "3级",
-        "wse": "13km/h",
-        "SD": "49%",
-        "sd": "49%",
-        "qy": "886",
-        "njd": "30km",
-        "time": "05:45",
+        "njd": "16km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "54",
@@ -425,28 +89,364 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "3",
+          "date": "5日白天",
+          "weather": "晴",
+          "temp": "18",
           "tempUnit": "°C",
           "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
+            "direction": "东北风",
+            "directionCode": "NE",
             "level": "<3级"
           },
-          "sunrise": "日落 19:00"
+          "sunrise": "日出 05:38"
         },
         "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "11",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:15"
+        }
+      }
+    },
+    {
+      "id": "101030100",
+      "province": "天津",
+      "city": "天津",
+      "realtime": {
+        "nameen": "tianjin",
+        "cityname": "天津",
+        "city": "101030100",
+        "temp": "7.8",
+        "tempf": "46",
+        "WD": "南风",
+        "wde": "S",
+        "WS": "1级",
+        "wse": "2km/h",
+        "SD": "65%",
+        "sd": "65%",
+        "qy": "1019",
+        "njd": "12km",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "61",
+        "aqi_pm25": "61",
+        "weather": "晴",
+        "weathere": "Sunny",
+        "weathercode": "d00",
+        "limitnumber": "不限行",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
           "date": "5日白天",
+          "weather": "晴",
+          "temp": "21",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "<3级"
+          },
+          "sunrise": "日出 05:50"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "11",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:37"
+        }
+      }
+    },
+    {
+      "id": "101040100",
+      "province": "重庆",
+      "city": "重庆",
+      "realtime": {
+        "nameen": "chongqing",
+        "cityname": "重庆",
+        "city": "101040100",
+        "temp": "16.4",
+        "tempf": "61.5",
+        "WD": "东北风",
+        "wde": "NE",
+        "WS": "1级",
+        "wse": "4km/h",
+        "SD": "97%",
+        "sd": "97%",
+        "qy": "982",
+        "njd": "3km",
+        "time": "06:45",
+        "rain": "0.6",
+        "rain24h": "0.6",
+        "aqi": "23",
+        "aqi_pm25": "23",
+        "weather": "阴",
+        "weathere": "Overcast",
+        "weathercode": "d02",
+        "limitnumber": "不限行",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
+          "date": "5日白天",
+          "weather": "多云",
+          "temp": "24",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "<3级"
+          },
+          "sunrise": "日出 06:39"
+        },
+        "night": {
+          "date": "5日夜间",
           "weather": "多云",
           "temp": "17",
           "tempUnit": "°C",
           "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
+            "direction": "东北风",
+            "directionCode": "NE",
             "level": "<3级"
           },
-          "sunset": "日出 06:10"
+          "sunset": "日落 19:14"
+        }
+      }
+    },
+    {
+      "id": "101050101",
+      "province": "黑龙江",
+      "city": "哈尔滨",
+      "realtime": {
+        "nameen": "haerbin",
+        "cityname": "哈尔滨",
+        "city": "101050101",
+        "temp": "5.4",
+        "tempf": "41.7",
+        "WD": "西南风",
+        "wde": "SW",
+        "WS": "3级",
+        "wse": "13km/h",
+        "SD": "39%",
+        "sd": "39%",
+        "qy": "1001",
+        "njd": "30km",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "52",
+        "aqi_pm25": "52",
+        "weather": "晴",
+        "weathere": "Sunny",
+        "weathercode": "d00",
+        "limitnumber": "",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
+          "date": "5日白天",
+          "weather": "多云",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "3-4级"
+          },
+          "sunrise": "日出 05:07"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "多云",
+          "temp": "6",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:05"
+        }
+      }
+    },
+    {
+      "id": "101060101",
+      "province": "吉林",
+      "city": "长春",
+      "realtime": {
+        "nameen": "changchun",
+        "cityname": "长春",
+        "city": "101060101",
+        "temp": "4.4",
+        "tempf": "39.9",
+        "WD": "南风",
+        "wde": "S",
+        "WS": "2级",
+        "wse": "7km/h",
+        "SD": "38%",
+        "sd": "38%",
+        "qy": "989",
+        "njd": "7km",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "189",
+        "aqi_pm25": "189",
+        "weather": "霾",
+        "weathere": "haze",
+        "weathercode": "d53",
+        "limitnumber": "",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
+          "date": "5日白天",
+          "weather": "晴",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "<3级"
+          },
+          "sunrise": "日出 05:14"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "6",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:09"
+        }
+      }
+    },
+    {
+      "id": "101070101",
+      "province": "辽宁",
+      "city": "沈阳",
+      "realtime": {
+        "nameen": "shenyang",
+        "cityname": "沈阳",
+        "city": "101070101",
+        "temp": "0.5",
+        "tempf": "32.9",
+        "WD": "东南风",
+        "wde": "SE",
+        "WS": "1级",
+        "wse": "3km/h",
+        "SD": "73%",
+        "sd": "73%",
+        "qy": "1013",
+        "njd": "8km",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "162",
+        "aqi_pm25": "162",
+        "weather": "多云",
+        "weathere": "Cloudy",
+        "weathercode": "d01",
+        "limitnumber": "",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
+          "date": "5日白天",
+          "weather": "多云",
+          "temp": "16",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "4-5级"
+          },
+          "sunrise": "日出 05:23"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "8",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "4-5级"
+          },
+          "sunset": "日落 18:14"
+        }
+      }
+    },
+    {
+      "id": "101080101",
+      "province": "内蒙古",
+      "city": "呼和浩特",
+      "realtime": {
+        "nameen": "huhehaote",
+        "cityname": "呼和浩特",
+        "city": "101080101",
+        "temp": "5.4",
+        "tempf": "41.7",
+        "WD": "西北风",
+        "wde": "NW",
+        "WS": "2级",
+        "wse": "10km/h",
+        "SD": "46%",
+        "sd": "46%",
+        "qy": "887",
+        "njd": "30km",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "55",
+        "aqi_pm25": "55",
+        "weather": "晴",
+        "weathere": "Sunny",
+        "weathercode": "d00",
+        "limitnumber": "",
+        "date": "04月05日(星期五)"
+      },
+      "weather": {
+        "day": {
+          "date": "5日白天",
+          "weather": "阴",
+          "temp": "18",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西北风",
+            "directionCode": "NW",
+            "level": "<3级"
+          },
+          "sunrise": "日出 06:10"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "多云",
+          "temp": "5",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "北风",
+            "directionCode": "N",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:00"
         }
       }
     },
@@ -460,15 +460,15 @@
         "city": "101090101",
         "temp": "6.9",
         "tempf": "44.4",
-        "WD": "西南风",
-        "wde": "SW",
+        "WD": "南风",
+        "wde": "S",
         "WS": "1级",
-        "wse": "5km/h",
+        "wse": "4km/h",
         "SD": "91%",
         "sd": "91%",
         "qy": "1008",
-        "njd": "2km",
-        "time": "05:45",
+        "njd": "3km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "79",
@@ -481,18 +481,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "7",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "南风",
-            "directionCode": "S",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:47"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "晴",
           "temp": "21",
@@ -502,7 +490,19 @@
             "directionCode": "SE",
             "level": "<3级"
           },
-          "sunset": "日出 06:02"
+          "sunrise": "日出 06:02"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "9",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西风",
+            "directionCode": "W",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:47"
         }
       }
     },
@@ -514,21 +514,21 @@
         "nameen": "taiyuan",
         "cityname": "太原",
         "city": "101100101",
-        "temp": "2.5",
-        "tempf": "36.5",
+        "temp": "2.6",
+        "tempf": "36.7",
         "WD": "北风",
         "wde": "N",
-        "WS": "1级",
-        "wse": "2km/h",
-        "SD": "90%",
-        "sd": "90%",
+        "WS": "0级",
+        "wse": "0km/h",
+        "SD": "92%",
+        "sd": "92%",
         "qy": "929",
-        "njd": "3km",
-        "time": "05:45",
+        "njd": "4km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "57",
-        "aqi_pm25": "57",
+        "aqi": "60",
+        "aqi_pm25": "60",
         "weather": "雾",
         "weathere": "Foggy",
         "weathercode": "d18",
@@ -537,18 +537,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "晴",
-          "temp": "5",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:55"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "21",
@@ -558,7 +546,19 @@
             "directionCode": "S",
             "level": "<3级"
           },
-          "sunset": "日出 06:10"
+          "sunrise": "日出 06:10"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "5",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西北风",
+            "directionCode": "NW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:55"
         }
       }
     },
@@ -572,39 +572,27 @@
         "city": "101110101",
         "temp": "11.6",
         "tempf": "52.9",
-        "WD": "东北风",
-        "wde": "NE",
+        "WD": "东南风",
+        "wde": "SE",
         "WS": "1级",
         "wse": "2km/h",
         "SD": "100%",
         "sd": "100%",
-        "qy": "970",
+        "qy": "971",
         "njd": "6km",
-        "time": "05:45",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "69",
-        "aqi_pm25": "69",
-        "weather": "多云",
-        "weathere": "Cloudy",
-        "weathercode": "d01",
+        "aqi": "70",
+        "aqi_pm25": "70",
+        "weather": "阴",
+        "weathere": "Overcast",
+        "weathercode": "d02",
         "limitnumber": "不限行",
         "date": "04月05日(星期五)"
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "11",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:07"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "17",
@@ -614,7 +602,19 @@
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:26"
+          "sunrise": "日出 06:26"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "10",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:07"
         }
       }
     },
@@ -626,21 +626,21 @@
         "nameen": "jinan",
         "cityname": "济南",
         "city": "101120101",
-        "temp": "7.8",
-        "tempf": "46",
+        "temp": "9",
+        "tempf": "48.2",
         "WD": "东南风",
         "wde": "SE",
         "WS": "1级",
-        "wse": "3km/h",
-        "SD": "51%",
-        "sd": "51%",
+        "wse": "4km/h",
+        "SD": "44%",
+        "sd": "44%",
         "qy": "1000",
-        "njd": "28km",
-        "time": "05:45",
+        "njd": "30km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "66",
-        "aqi_pm25": "66",
+        "aqi": "65",
+        "aqi_pm25": "65",
         "weather": "晴",
         "weathere": "Sunny",
         "weathercode": "d00",
@@ -649,20 +649,8 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "9",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:36"
-        },
-        "night": {
           "date": "5日白天",
-          "weather": "多云",
+          "weather": "阴",
           "temp": "23",
           "tempUnit": "°C",
           "wind": {
@@ -670,7 +658,19 @@
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 05:52"
+          "sunrise": "日出 05:52"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:36"
         }
       }
     },
@@ -682,21 +682,21 @@
         "nameen": "wulumuqi",
         "cityname": "乌鲁木齐",
         "city": "101130101",
-        "temp": "-0.7",
-        "tempf": "30.7",
+        "temp": "-0.9",
+        "tempf": "30.4",
         "WD": "微风",
         "wde": "NWW",
         "WS": "2级",
         "wse": "5km/h",
-        "SD": "78%",
-        "sd": "78%",
+        "SD": "76%",
+        "sd": "76%",
         "qy": "818",
-        "njd": "20km",
-        "time": "05:20",
+        "njd": "22km",
+        "time": "06:10",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "36",
-        "aqi_pm25": "36",
+        "aqi": "32",
+        "aqi_pm25": "32",
         "weather": "雾",
         "weathere": "Foggy",
         "weathercode": "d18",
@@ -705,18 +705,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "2",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西北风",
-            "directionCode": "NW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 20:39"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "多云",
           "temp": "12",
@@ -726,7 +714,19 @@
             "directionCode": "NW",
             "level": "<3级"
           },
-          "sunset": "日出 07:44"
+          "sunrise": "日出 07:44"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "3",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西北风",
+            "directionCode": "NW",
+            "level": "<3级"
+          },
+          "sunset": "日落 20:39"
         }
       }
     },
@@ -738,8 +738,8 @@
         "nameen": "lasa",
         "cityname": "拉萨",
         "city": "101140101",
-        "temp": "-0.9",
-        "tempf": "30.4",
+        "temp": "-1.8",
+        "tempf": "28.8",
         "WD": "微风",
         "wde": "NWW",
         "WS": "1级",
@@ -747,42 +747,42 @@
         "SD": "68%",
         "sd": "68%",
         "qy": "581",
-        "njd": "36km",
-        "time": "06:00",
+        "njd": "39km",
+        "time": "06:10",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "36",
-        "aqi_pm25": "36",
-        "weather": "多云",
-        "weathere": "Cloudy",
-        "weathercode": "d01",
+        "aqi": "34",
+        "aqi_pm25": "34",
+        "weather": "晴",
+        "weathere": "Sunny",
+        "weathercode": "d00",
         "limitnumber": "",
         "date": "04月05日(星期五)"
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "5",
+          "date": "5日白天",
+          "weather": "晴",
+          "temp": "17",
           "tempUnit": "°C",
           "wind": {
-            "direction": "西风",
-            "directionCode": "W",
-            "level": "3-4级"
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
           },
-          "sunrise": "日落 20:15"
+          "sunrise": "日出 07:41"
         },
         "night": {
-          "date": "5日白天",
-          "weather": "多云",
-          "temp": "18",
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "6",
           "tempUnit": "°C",
           "wind": {
-            "direction": "西风",
-            "directionCode": "W",
-            "level": "3-4级"
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
           },
-          "sunset": "日出 07:41"
+          "sunset": "日落 20:15"
         }
       }
     },
@@ -794,21 +794,21 @@
         "nameen": "xining",
         "cityname": "西宁",
         "city": "101150101",
-        "temp": "0.7",
-        "tempf": "33.3",
+        "temp": "0.5",
+        "tempf": "32.9",
         "WD": "西北风",
         "wde": "NW",
         "WS": "2级",
-        "wse": "6km/h",
-        "SD": "93%",
-        "sd": "93%",
+        "wse": "8km/h",
+        "SD": "94%",
+        "sd": "94%",
         "qy": "758",
-        "njd": "3km",
-        "time": "05:50",
-        "rain": "1.8",
-        "rain24h": "1.8",
-        "aqi": "52",
-        "aqi_pm25": "52",
+        "njd": "2km",
+        "time": "06:45",
+        "rain": "0.6",
+        "rain24h": "0.6",
+        "aqi": "43",
+        "aqi_pm25": "43",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -817,18 +817,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "2",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:37"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "11",
@@ -838,7 +826,19 @@
             "directionCode": "SE",
             "level": "3-4级"
           },
-          "sunset": "日出 06:53"
+          "sunrise": "日出 06:53"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "2",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:37"
         }
       }
     },
@@ -850,21 +850,21 @@
         "nameen": "lanzhou",
         "cityname": "兰州",
         "city": "101160101",
-        "temp": "9.7",
-        "tempf": "49.5",
-        "WD": "东风",
-        "wde": "E",
-        "WS": "2级",
-        "wse": "9km/h",
-        "SD": "52%",
-        "sd": "52%",
+        "temp": "8.9",
+        "tempf": "48",
+        "WD": "西风",
+        "wde": "W",
+        "WS": "1级",
+        "wse": "3km/h",
+        "SD": "57%",
+        "sd": "57%",
         "qy": "809",
-        "njd": "23km",
-        "time": "05:45",
+        "njd": "24km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "72",
-        "aqi_pm25": "72",
+        "aqi": "74",
+        "aqi_pm25": "74",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -873,28 +873,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "7",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:29"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
-          "temp": "17",
+          "temp": "18",
           "tempUnit": "°C",
           "wind": {
             "direction": "无持续风向",
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:46"
+          "sunrise": "日出 06:46"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "6",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:29"
         }
       }
     },
@@ -906,21 +906,21 @@
         "nameen": "yinchuan",
         "cityname": "银川",
         "city": "101170101",
-        "temp": "9.6",
-        "tempf": "49.3",
+        "temp": "9.7",
+        "tempf": "49.5",
         "WD": "北风",
         "wde": "N",
         "WS": "2级",
         "wse": "7km/h",
-        "SD": "35%",
-        "sd": "35%",
-        "qy": "891",
-        "njd": "30km",
-        "time": "05:50",
+        "SD": "36%",
+        "sd": "36%",
+        "qy": "892",
+        "njd": "27km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "53",
-        "aqi_pm25": "53",
+        "aqi": "55",
+        "aqi_pm25": "55",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -929,18 +929,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "8",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:21"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "19",
@@ -950,7 +938,19 @@
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:34"
+          "sunrise": "日出 06:34"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "7",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:21"
         }
       }
     },
@@ -964,39 +964,27 @@
         "city": "101180101",
         "temp": "5.9",
         "tempf": "42.6",
-        "WD": "西南风",
-        "wde": "SW",
-        "WS": "1级",
-        "wse": "1km/h",
-        "SD": "95%",
-        "sd": "95%",
+        "WD": "北风",
+        "wde": "N",
+        "WS": "2级",
+        "wse": "11km/h",
+        "SD": "96%",
+        "sd": "96%",
         "qy": "1007",
-        "njd": "5km",
-        "time": "05:50",
+        "njd": "6km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "75",
         "aqi_pm25": "75",
-        "weather": "多云",
-        "weathere": "Cloudy",
-        "weathercode": "d01",
+        "weather": "晴",
+        "weathere": "Sunny",
+        "weathercode": "d00",
         "limitnumber": "不限行",
         "date": "04月05日(星期五)"
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "7",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "西南风",
-            "directionCode": "SW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:48"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "19",
@@ -1006,7 +994,19 @@
             "directionCode": "S",
             "level": "<3级"
           },
-          "sunset": "日出 06:07"
+          "sunrise": "日出 06:07"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "多云",
+          "temp": "8",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "西南风",
+            "directionCode": "SW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:48"
         }
       }
     },
@@ -1018,17 +1018,17 @@
         "nameen": "nanjing",
         "cityname": "南京",
         "city": "101190101",
-        "temp": "8.9",
-        "tempf": "48",
-        "WD": "东北风",
-        "wde": "NE",
+        "temp": "9.5",
+        "tempf": "49.1",
+        "WD": "北风",
+        "wde": "N",
         "WS": "1级",
-        "wse": "4km/h",
-        "SD": "48%",
-        "sd": "48%",
-        "qy": "1015",
-        "njd": "22km",
-        "time": "05:45",
+        "wse": "3km/h",
+        "SD": "51%",
+        "sd": "51%",
+        "qy": "1016",
+        "njd": "21km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "49",
@@ -1041,18 +1041,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "7",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:26"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "18",
@@ -1062,7 +1050,19 @@
             "directionCode": "NE",
             "level": "3-4级"
           },
-          "sunset": "日出 05:48"
+          "sunrise": "日出 05:48"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "11",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东风",
+            "directionCode": "E",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:26"
         }
       }
     },
@@ -1074,21 +1074,21 @@
         "nameen": "wuhan",
         "cityname": "武汉",
         "city": "101200101",
-        "temp": "10.6",
-        "tempf": "51.1",
-        "WD": "西风",
-        "wde": "W",
-        "WS": "1级",
-        "wse": "3km/h",
-        "SD": "86%",
-        "sd": "86%",
-        "qy": "1016",
-        "njd": "8km",
-        "time": "05:50",
+        "temp": "9.8",
+        "tempf": "49.6",
+        "WD": "北风",
+        "wde": "N",
+        "WS": "2级",
+        "wse": "11km/h",
+        "SD": "92%",
+        "sd": "92%",
+        "qy": "1015",
+        "njd": "3km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "39",
-        "aqi_pm25": "39",
+        "aqi": "41",
+        "aqi_pm25": "41",
         "weather": "雾",
         "weathere": "Foggy",
         "weathercode": "d18",
@@ -1097,18 +1097,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "11",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:43"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "18",
@@ -1118,7 +1106,19 @@
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:07"
+          "sunrise": "日出 06:07"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "多云",
+          "temp": "12",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:43"
         }
       }
     },
@@ -1130,21 +1130,21 @@
         "nameen": "hangzhou",
         "cityname": "杭州",
         "city": "101210101",
-        "temp": "11.6",
-        "tempf": "52.9",
-        "WD": "西北风",
-        "wde": "NW",
+        "temp": "12.3",
+        "tempf": "54.1",
+        "WD": "东北风",
+        "wde": "NE",
         "WS": "2级",
         "wse": "6km/h",
-        "SD": "94%",
-        "sd": "94%",
-        "qy": "1013",
-        "njd": "3km",
-        "time": "05:45",
+        "SD": "80%",
+        "sd": "80%",
+        "qy": "1014",
+        "njd": "7km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "48",
-        "aqi_pm25": "48",
+        "aqi": "46",
+        "aqi_pm25": "46",
         "weather": "雾",
         "weathere": "Foggy",
         "weathercode": "d18",
@@ -1153,18 +1153,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "10",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "3-4级"
-          },
-          "sunrise": "日落 18:19"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "18",
@@ -1174,7 +1162,19 @@
             "directionCode": "E",
             "level": "4-5级"
           },
-          "sunset": "日出 05:44"
+          "sunrise": "日出 05:44"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "11",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:19"
         }
       }
     },
@@ -1186,51 +1186,51 @@
         "nameen": "hefei",
         "cityname": "合肥",
         "city": "101220101",
-        "temp": "7.4",
-        "tempf": "45.3",
+        "temp": "7.8",
+        "tempf": "46",
         "WD": "北风",
         "wde": "N",
         "WS": "2级",
-        "wse": "6km/h",
-        "SD": "82%",
-        "sd": "82%",
+        "wse": "5km/h",
+        "SD": "78%",
+        "sd": "78%",
         "qy": "1013",
-        "njd": "20km",
-        "time": "05:45",
+        "njd": "18km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "36",
-        "aqi_pm25": "36",
-        "weather": "晴",
-        "weathere": "Sunny",
-        "weathercode": "d00",
+        "aqi": "38",
+        "aqi_pm25": "38",
+        "weather": "多云",
+        "weathere": "Cloudy",
+        "weathercode": "d01",
         "limitnumber": "",
         "date": "04月05日(星期五)"
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "7",
+          "date": "5日白天",
+          "weather": "阴",
+          "temp": "18",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "3-4级"
+          },
+          "sunrise": "日出 05:55"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "11",
           "tempUnit": "°C",
           "wind": {
             "direction": "东北风",
             "directionCode": "NE",
             "level": "<3级"
           },
-          "sunrise": "日落 18:32"
-        },
-        "night": {
-          "date": "5日白天",
-          "weather": "多云",
-          "temp": "18",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东风",
-            "directionCode": "E",
-            "level": "<3级"
-          },
-          "sunset": "日出 05:55"
+          "sunset": "日落 18:32"
         }
       }
     },
@@ -1244,19 +1244,19 @@
         "city": "101230101",
         "temp": "15.2",
         "tempf": "59.4",
-        "WD": "南风",
-        "wde": "S",
+        "WD": "西南风",
+        "wde": "SW",
         "WS": "1级",
-        "wse": "5km/h",
+        "wse": "3km/h",
         "SD": "100%",
         "sd": "100%",
-        "qy": "1005",
-        "njd": "6km",
-        "time": "05:45",
+        "qy": "1006",
+        "njd": "5km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "30",
-        "aqi_pm25": "30",
+        "aqi": "28",
+        "aqi_pm25": "28",
         "weather": "雾",
         "weathere": "Foggy",
         "weathercode": "d18",
@@ -1265,28 +1265,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "中雨",
-          "temp": "15",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东风",
-            "directionCode": "E",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:21"
-        },
-        "night": {
           "date": "5日白天",
-          "weather": "中雨",
+          "weather": "小雨",
           "temp": "17",
           "tempUnit": "°C",
           "wind": {
-            "direction": "东风",
-            "directionCode": "E",
+            "direction": "无持续风向",
+            "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 05:50"
+          "sunrise": "日出 05:50"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:21"
         }
       }
     },
@@ -1298,17 +1298,17 @@
         "nameen": "nanchang",
         "cityname": "南昌",
         "city": "101240101",
-        "temp": "15.1",
-        "tempf": "59.2",
+        "temp": "14.8",
+        "tempf": "58.6",
         "WD": "北风",
         "wde": "N",
-        "WS": "1级",
-        "wse": "5km/h",
+        "WS": "2级",
+        "wse": "6km/h",
         "SD": "76%",
         "sd": "76%",
         "qy": "1011",
-        "njd": "11km",
-        "time": "05:45",
+        "njd": "12km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
         "aqi": "55",
@@ -1321,28 +1321,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "13",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:36"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "18",
           "tempUnit": "°C",
           "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
+            "direction": "无持续风向",
+            "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:02"
+          "sunrise": "日出 06:02"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:36"
         }
       }
     },
@@ -1356,19 +1356,19 @@
         "city": "101250101",
         "temp": "14.4",
         "tempf": "57.9",
-        "WD": "东北风",
-        "wde": "NE",
+        "WD": "北风",
+        "wde": "N",
         "WS": "1级",
-        "wse": "3km/h",
+        "wse": "1km/h",
         "SD": "91%",
         "sd": "91%",
-        "qy": "1011",
-        "njd": "1km",
-        "time": "05:45",
+        "qy": "1012",
+        "njd": "2km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "85",
-        "aqi_pm25": "85",
+        "aqi": "79",
+        "aqi_pm25": "79",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1377,18 +1377,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "12",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "北风",
-            "directionCode": "N",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:47"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "15",
@@ -1398,7 +1386,19 @@
             "directionCode": "N",
             "level": "<3级"
           },
-          "sunset": "日出 06:14"
+          "sunrise": "日出 06:14"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "12",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "北风",
+            "directionCode": "N",
+            "level": "<3级"
+          },
+          "sunset": "日落 18:47"
         }
       }
     },
@@ -1410,21 +1410,21 @@
         "nameen": "guiyang",
         "cityname": "贵阳",
         "city": "101260101",
-        "temp": "10.4",
-        "tempf": "50.7",
+        "temp": "10.3",
+        "tempf": "50.5",
         "WD": "北风",
         "wde": "N",
-        "WS": "2级",
-        "wse": "11km/h",
-        "SD": "97%",
-        "sd": "97%",
+        "WS": "3级",
+        "wse": "12km/h",
+        "SD": "96%",
+        "sd": "96%",
         "qy": "876",
         "njd": "30km",
-        "time": "05:50",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "27",
-        "aqi_pm25": "27",
+        "aqi": "26",
+        "aqi_pm25": "26",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1433,18 +1433,6 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阴",
-          "temp": "11",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "东北风",
-            "directionCode": "NE",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:12"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "阴",
           "temp": "18",
@@ -1454,7 +1442,19 @@
             "directionCode": "NE",
             "level": "<3级"
           },
-          "sunset": "日出 06:40"
+          "sunrise": "日出 06:40"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "阵雨",
+          "temp": "11",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:12"
         }
       }
     },
@@ -1476,11 +1476,11 @@
         "sd": "100%",
         "qy": "954",
         "njd": "2km",
-        "time": "05:45",
-        "rain": "0.1",
-        "rain24h": "0.1",
-        "aqi": "38",
-        "aqi_pm25": "38",
+        "time": "06:45",
+        "rain": "0",
+        "rain24h": "0",
+        "aqi": "42",
+        "aqi_pm25": "42",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1489,28 +1489,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "中雨",
-          "temp": "15",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:24"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
-          "temp": "22",
+          "temp": "21",
           "tempUnit": "°C",
           "wind": {
             "direction": "东北风",
             "directionCode": "NE",
             "level": "3-4级"
           },
-          "sunset": "日出 06:48"
+          "sunrise": "日出 06:48"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "14",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:24"
         }
       }
     },
@@ -1522,21 +1522,21 @@
         "nameen": "guangzhou",
         "cityname": "广州",
         "city": "101280101",
-        "temp": "22",
-        "tempf": "71.6",
+        "temp": "21.7",
+        "tempf": "71.1",
         "WD": "南风",
         "wde": "S",
         "WS": "1级",
-        "wse": "2km/h",
+        "wse": "1km/h",
         "SD": "99%",
         "sd": "99%",
-        "qy": "1006",
-        "njd": "2km",
-        "time": "05:45",
-        "rain": "5.5",
-        "rain24h": "5.5",
-        "aqi": "16",
-        "aqi_pm25": "16",
+        "qy": "1007",
+        "njd": "5km",
+        "time": "06:40",
+        "rain": "0.6",
+        "rain24h": "0.6",
+        "aqi": "15",
+        "aqi_pm25": "15",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1545,28 +1545,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "大雨",
-          "temp": "23",
+          "date": "5日白天",
+          "weather": "中雨",
+          "temp": "24",
           "tempUnit": "°C",
           "wind": {
             "direction": "南风",
             "directionCode": "S",
             "level": "3-4级"
           },
-          "sunrise": "日落 18:43"
+          "sunrise": "日出 06:16"
         },
         "night": {
-          "date": "5日白天",
+          "date": "5日夜间",
           "weather": "大雨",
-          "temp": "27",
+          "temp": "21",
           "tempUnit": "°C",
           "wind": {
-            "direction": "南风",
-            "directionCode": "S",
-            "level": "3-4级"
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
           },
-          "sunset": "日出 06:16"
+          "sunset": "日落 18:43"
         }
       }
     },
@@ -1578,21 +1578,21 @@
         "nameen": "kunming",
         "cityname": "昆明",
         "city": "101290101",
-        "temp": "15.2",
-        "tempf": "59.4",
-        "WD": "西风",
-        "wde": "W",
-        "WS": "1级",
-        "wse": "2km/h",
-        "SD": "54%",
-        "sd": "54%",
+        "temp": "13.1",
+        "tempf": "55.6",
+        "WD": "北风",
+        "wde": "N",
+        "WS": "2级",
+        "wse": "11km/h",
+        "SD": "63%",
+        "sd": "63%",
         "qy": "809",
-        "njd": "25km",
-        "time": "05:50",
+        "njd": "23km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "44",
-        "aqi_pm25": "44",
+        "aqi": "40",
+        "aqi_pm25": "40",
         "weather": "晴",
         "weathere": "Sunny",
         "weathercode": "d00",
@@ -1601,28 +1601,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "晴",
-          "temp": "14",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:26"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "多云",
-          "temp": "25",
+          "temp": "26",
           "tempUnit": "°C",
           "wind": {
             "direction": "无持续风向",
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:56"
+          "sunrise": "日出 06:56"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "16",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "无持续风向",
+            "directionCode": "NNW",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:26"
         }
       }
     },
@@ -1634,21 +1634,21 @@
         "nameen": "nanning",
         "cityname": "南宁",
         "city": "101300101",
-        "temp": "19.3",
-        "tempf": "66.7",
-        "WD": "东风",
-        "wde": "E",
-        "WS": "3级",
-        "wse": "15km/h",
+        "temp": "19.1",
+        "tempf": "66.4",
+        "WD": "东北风",
+        "wde": "NE",
+        "WS": "2级",
+        "wse": "11km/h",
         "SD": "80%",
         "sd": "80%",
-        "qy": "987",
-        "njd": "16km",
-        "time": "05:45",
+        "qy": "988",
+        "njd": "12km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "27",
-        "aqi_pm25": "27",
+        "aqi": "22",
+        "aqi_pm25": "22",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1657,28 +1657,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "小雨",
-          "temp": "19",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 19:03"
-        },
-        "night": {
           "date": "5日白天",
           "weather": "小雨",
           "temp": "21",
           "tempUnit": "°C",
           "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
+            "direction": "东北风",
+            "directionCode": "NE",
             "level": "<3级"
           },
-          "sunset": "日出 06:35"
+          "sunrise": "日出 06:35"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "小雨",
+          "temp": "18",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "东北风",
+            "directionCode": "NE",
+            "level": "<3级"
+          },
+          "sunset": "日落 19:03"
         }
       }
     },
@@ -1690,21 +1690,21 @@
         "nameen": "haikou",
         "cityname": "海口",
         "city": "101310101",
-        "temp": "25.7",
-        "tempf": "78.3",
+        "temp": "25.8",
+        "tempf": "78.4",
         "WD": "东南风",
         "wde": "SE",
-        "WS": "2级",
-        "wse": "6km/h",
+        "WS": "3级",
+        "wse": "13km/h",
         "SD": "84%",
         "sd": "84%",
-        "qy": "999",
-        "njd": "27km",
-        "time": "05:50",
+        "qy": "1000",
+        "njd": "24km",
+        "time": "06:45",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "23",
-        "aqi_pm25": "23",
+        "aqi": "22",
+        "aqi_pm25": "22",
         "weather": "晴",
         "weathere": "Sunny",
         "weathercode": "d00",
@@ -1713,20 +1713,8 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "多云",
-          "temp": "25",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "南风",
-            "directionCode": "S",
-            "level": "4-5级"
-          },
-          "sunrise": "日落 18:53"
-        },
-        "night": {
           "date": "5日白天",
-          "weather": "多云",
+          "weather": "晴",
           "temp": "34",
           "tempUnit": "°C",
           "wind": {
@@ -1734,7 +1722,19 @@
             "directionCode": "S",
             "level": "3-4级"
           },
-          "sunset": "日出 06:29"
+          "sunrise": "日出 06:29"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "晴",
+          "temp": "25",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "南风",
+            "directionCode": "S",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:53"
         }
       }
     },
@@ -1752,45 +1752,45 @@
         "wde": "NWW",
         "WS": "2级",
         "wse": "5km/h",
-        "SD": "90%",
-        "sd": "90%",
+        "SD": "89%",
+        "sd": "89%",
         "qy": "999",
-        "njd": "12km",
-        "time": "05:30",
+        "njd": "11km",
+        "time": "06:10",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "26",
-        "aqi_pm25": "26",
-        "weather": "晴",
-        "weathere": "Sunny",
-        "weathercode": "d00",
+        "aqi": "28",
+        "aqi_pm25": "28",
+        "weather": "多云",
+        "weathere": "Cloudy",
+        "weathercode": "d01",
         "limitnumber": "",
         "date": "04月05日(星期五)"
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阵雨",
-          "temp": "26",
+          "date": "5日白天",
+          "weather": "雷阵雨",
+          "temp": "27",
           "tempUnit": "°C",
           "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
+            "direction": "南风",
+            "directionCode": "S",
+            "level": "3-4级"
           },
-          "sunrise": "日落 18:39"
+          "sunrise": "日出 06:12"
         },
         "night": {
-          "date": "5日白天",
-          "weather": "阵雨",
-          "temp": "30",
+          "date": "5日夜间",
+          "weather": "雷阵雨",
+          "temp": "23",
           "tempUnit": "°C",
           "wind": {
             "direction": "无持续风向",
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 06:12"
+          "sunset": "日落 18:39"
         }
       }
     },
@@ -1802,17 +1802,17 @@
         "nameen": "macao",
         "cityname": "澳门",
         "city": "101330101",
-        "temp": "25.4",
-        "tempf": "77.7",
+        "temp": "25.3",
+        "tempf": "77.5",
         "WD": "微风",
         "wde": "NWW",
         "WS": "2级",
         "wse": "5km/h",
-        "SD": "89%",
-        "sd": "89%",
+        "SD": "90%",
+        "sd": "90%",
         "qy": "1006",
-        "njd": "27km",
-        "time": "05:20",
+        "njd": "29km",
+        "time": "06:10",
         "rain": "0",
         "rain24h": "0",
         "aqi": "19",
@@ -1825,28 +1825,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
-          "weather": "阵雨",
-          "temp": "24",
-          "tempUnit": "°C",
-          "wind": {
-            "direction": "无持续风向",
-            "directionCode": "NNW",
-            "level": "<3级"
-          },
-          "sunrise": "日落 18:41"
-        },
-        "night": {
           "date": "5日白天",
-          "weather": "阵雨",
-          "temp": "26",
+          "weather": "雷阵雨",
+          "temp": "27",
           "tempUnit": "°C",
           "wind": {
             "direction": "南风",
             "directionCode": "S",
             "level": "3-4级"
           },
-          "sunset": "日出 06:15"
+          "sunrise": "日出 06:15"
+        },
+        "night": {
+          "date": "5日夜间",
+          "weather": "雷阵雨",
+          "temp": "24",
+          "tempUnit": "°C",
+          "wind": {
+            "direction": "南风",
+            "directionCode": "S",
+            "level": "3-4级"
+          },
+          "sunset": "日落 18:41"
         }
       }
     },
@@ -1858,8 +1858,8 @@
         "nameen": "taibeixian",
         "cityname": "台北",
         "city": "101340101",
-        "temp": "19.1",
-        "tempf": "66.4",
+        "temp": "18.9",
+        "tempf": "66",
         "WD": "微风",
         "wde": "NWW",
         "WS": "2级",
@@ -1867,12 +1867,12 @@
         "SD": "93%",
         "sd": "93%",
         "qy": "1007",
-        "njd": "6km",
-        "time": "05:20",
+        "njd": "5km",
+        "time": "06:10",
         "rain": "0",
         "rain24h": "0",
-        "aqi": "27",
-        "aqi_pm25": "27",
+        "aqi": "29",
+        "aqi_pm25": "29",
         "weather": "阴",
         "weathere": "Overcast",
         "weathercode": "d02",
@@ -1881,28 +1881,28 @@
       },
       "weather": {
         "day": {
-          "date": "4日夜间",
+          "date": "5日白天",
           "weather": "小雨",
-          "temp": "20",
+          "temp": "21",
           "tempUnit": "°C",
           "wind": {
             "direction": "无持续风向",
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunrise": "日落 18:11"
+          "sunrise": "日出 05:42"
         },
         "night": {
-          "date": "5日白天",
-          "weather": "多云",
-          "temp": "22",
+          "date": "5日夜间",
+          "weather": "阴",
+          "temp": "19",
           "tempUnit": "°C",
           "wind": {
             "direction": "无持续风向",
             "directionCode": "NNW",
             "level": "<3级"
           },
-          "sunset": "日出 05:42"
+          "sunset": "日落 18:11"
         }
       }
     }
