@@ -7,6 +7,8 @@ import {
 } from "./api.ts";
 
 import { format } from "https://deno.land/std@0.224.0/datetime/mod.ts";
+import { zip } from "https://deno.land/x/zip@v1.2.5/mod.ts";
+import { create } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 
 const cityDataResp = await fetch(
   "https://j.i8tq.com/weather2020/search/city.js",
@@ -88,3 +90,72 @@ await Deno.writeTextFile(
 await Deno.writeTextFile(`weathers/${date}/latest.json`, content);
 
 await Deno.writeTextFile(`weathers/latest.json`, content);
+
+// Compress old weather data folders
+async function compressOldWeatherData() {
+  const weathersDir = "./weathers";
+  const currentDate = new Date();
+  // First day of current month
+  const firstDayOfCurrentMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
+
+  try {
+    const entries = Deno.readDir(weathersDir);
+    const foldersToCompress: string[] = [];
+
+    for await (const entry of entries) {
+      if (entry.isDirectory && entry.name.match(/^\d{4}-\d{2}-\d{2}$/)) {
+        const folderDate = new Date(entry.name);
+        // If the folder is before the first day of the current month, mark it for compression
+        if (folderDate < firstDayOfCurrentMonth) {
+          foldersToCompress.push(entry.name);
+        }
+      }
+    }
+
+    // Group folders by month
+    const foldersByMonth = new Map<string, string[]>();
+    for (const folder of foldersToCompress) {
+      const month = folder.substring(0, 7); // YYYY-MM
+      if (!foldersByMonth.has(month)) {
+        foldersByMonth.set(month, []);
+      }
+      foldersByMonth.get(month)!.push(folder);
+    }
+
+    // Compress each month's folders
+    for (const [month, folders] of foldersByMonth) {
+      const zipPath = `${weathersDir}/${month}.zip`;
+
+      // Check if zip already exists
+      try {
+        await Deno.stat(zipPath);
+        console.log(`Zip file ${zipPath} already exists, skipping...`);
+        continue;
+      } catch {
+        // File doesn't exist, proceed with compression
+      }
+
+      console.log(`Compressing ${folders.length} folders for ${month}...`);
+
+      try {
+        // Create zip file
+        await zip(folders.map(folder => `${weathersDir}/${folder}`), zipPath);
+
+        // Remove original folders after successful compression
+        for (const folder of folders) {
+          await Deno.remove(`${weathersDir}/${folder}`, { recursive: true });
+          console.log(`Removed folder: ${folder}`);
+        }
+
+        console.log(`Successfully compressed ${month} data to ${zipPath}`);
+      } catch (error) {
+        console.error(`Failed to compress ${month}: ${error.message}`);
+      }
+    }
+  } catch (error) {
+    console.error(`Error during compression: ${error.message}`);
+  }
+}
+
+// Run compression after saving current data
+await compressOldWeatherData();
