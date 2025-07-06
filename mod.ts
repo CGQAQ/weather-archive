@@ -39,19 +39,21 @@ const datetime = format(today, "yyyy-MM-dd HH:mm:ss");
 
 // Add delay function to avoid overwhelming the server
 function delay(ms: number) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 // Process cities with rate limiting and error handling
 for (let i = 0; i < cities.length; i++) {
   const city = cities[i];
-  console.log(`Processing ${i + 1}/${cities.length}: ${city.city}, ${city.province}`);
-  
+  console.log(
+    `Processing ${i + 1}/${cities.length}: ${city.city}, ${city.province}`,
+  );
+
   try {
     city.realtime = await getRealtimeData(city.id);
     // Add small delay between requests
     await delay(100);
-    
+
     city.weather = await getWeatherData(city.id);
     // Add small delay between requests
     await delay(100);
