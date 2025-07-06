@@ -6,7 +6,7 @@ import {
   WeatherData,
 } from "./api.ts";
 
-import { format } from "https://deno.land/std@0.165.0/datetime/mod.ts";
+import { format } from "https://deno.land/std@0.224.0/datetime/mod.ts";
 
 const cityDataResp = await fetch(
   "https://j.i8tq.com/weather2020/search/city.js",
@@ -37,9 +37,28 @@ const today = new Date();
 const date = format(today, "yyyy-MM-dd");
 const datetime = format(today, "yyyy-MM-dd HH:mm:ss");
 
-for (const city of cities) {
-  city.realtime = await getRealtimeData(city.id);
-  city.weather = await getWeatherData(city.id);
+// Add delay function to avoid overwhelming the server
+function delay(ms: number) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Process cities with rate limiting and error handling
+for (let i = 0; i < cities.length; i++) {
+  const city = cities[i];
+  console.log(`Processing ${i + 1}/${cities.length}: ${city.city}, ${city.province}`);
+  
+  try {
+    city.realtime = await getRealtimeData(city.id);
+    // Add small delay between requests
+    await delay(100);
+    
+    city.weather = await getWeatherData(city.id);
+    // Add small delay between requests
+    await delay(100);
+  } catch (error) {
+    console.error(`Failed to get data for ${city.city}: ${error.message}`);
+    // Continue with other cities even if one fails
+  }
 }
 
 try {

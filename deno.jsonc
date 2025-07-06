@@ -1,5 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/denoland/deno/main/cli/schemas/config-file.v1.json",
+  
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  },
 
   "tasks": {
     "start": "deno run --allow-all --unstable mod.ts"
