@@ -7,7 +7,6 @@ import {
 } from "./api.ts";
 
 import { format } from "https://deno.land/std@0.224.0/datetime/mod.ts";
-import { create } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 
 const cityDataResp = await fetch(
   "https://j.i8tq.com/weather2020/search/city.js",
@@ -90,6 +89,16 @@ await Deno.writeTextFile(`weathers/${date}/latest.json`, content);
 
 await Deno.writeTextFile(`weathers/latest.json`, content);
 
+// Helper to zip folders using system zip command
+async function zipFolders(zipPath: string, folders: string[]) {
+  // zipPath is relative to weathersDir, folders are folder names (YYYY-MM-dd)
+  const args = ["zip", "-r", zipPath, ...folders];
+  const p = Deno.run({ cmd: args, cwd: "weathers" });
+  const status = await p.status();
+  p.close();
+  if (!status.success) throw new Error(`zip failed for ${zipPath}`);
+}
+
 // Compress old weather data folders
 async function compressOldWeatherData() {
   const weathersDir = "./weathers";
@@ -123,11 +132,11 @@ async function compressOldWeatherData() {
 
     // Compress each month's folders
     for (const [month, folders] of foldersByMonth) {
-      const zipPath = `${weathersDir}/${month}.zip`;
+      const zipPath = `${month}.zip`;
 
       // Check if zip already exists
       try {
-        await Deno.stat(zipPath);
+        await Deno.stat(`${weathersDir}/${zipPath}`);
         console.log(`Zip file ${zipPath} already exists, skipping...`);
         continue;
       } catch {
@@ -137,8 +146,8 @@ async function compressOldWeatherData() {
       console.log(`Compressing ${folders.length} folders for ${month}...`);
 
       try {
-        // Create zip file
-        await create(zipPath, folders.map(folder => `${weathersDir}/${folder}`));
+        // Create zip file using system zip
+        await zipFolders(zipPath, folders);
 
         // Remove original folders after successful compression
         for (const folder of folders) {
