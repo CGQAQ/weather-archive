@@ -104,7 +104,11 @@ async function compressOldWeatherData() {
   const weathersDir = "./weathers";
   const currentDate = new Date();
   // First day of current month
-  const firstDayOfCurrentMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
+  const firstDayOfCurrentMonth = new Date(
+    currentDate.getFullYear(),
+    currentDate.getMonth(),
+    1,
+  );
 
   try {
     const entries = Deno.readDir(weathersDir);
