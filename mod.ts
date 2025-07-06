@@ -7,7 +7,6 @@ import {
 } from "./api.ts";
 
 import { format } from "https://deno.land/std@0.224.0/datetime/mod.ts";
-import { zip } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 import { create } from "https://deno.land/x/zip@v1.2.5/mod.ts";
 
 const cityDataResp = await fetch(
@@ -139,7 +138,7 @@ async function compressOldWeatherData() {
 
       try {
         // Create zip file
-        await zip(folders.map(folder => `${weathersDir}/${folder}`), zipPath);
+        await create(zipPath, folders.map(folder => `${weathersDir}/${folder}`));
 
         // Remove original folders after successful compression
         for (const folder of folders) {
